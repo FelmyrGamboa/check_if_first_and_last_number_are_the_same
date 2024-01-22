@@ -6,6 +6,14 @@
 # numbers_x = [10, 20, 30, 40, 10]
 # numbers_y = [75, 65, 35, 75, 30]
 
+# Expected Output:
+
+# Given list: [10, 20, 30, 40, 10]
+# result is True
+
+# numbers_y = [75, 65, 35, 75, 30]
+# result is False
+
 #Create a function to check the first and last number
 def check_first_and_last_number(number_list):
 #Write a condition to return if first and last number of the list is same
@@ -26,5 +34,5 @@ checked_list_2 = check_first_and_last_number(number_list_2)
 #Display the result
 print("Given the list", number_list_1)
 print("Result is", checked_list_1)
-print("Given the list", number_list_2)
+print("\nGiven the list", number_list_2)
 print("Result is", checked_list_2)
