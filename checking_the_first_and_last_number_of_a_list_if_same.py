@@ -20,7 +20,11 @@ number_list_1 = [10, 20, 30, 40, 10]
 number_list_2 = [75, 65, 35, 75, 30]
 
 #Call out the function
-check_first_and_last_number(number_list_1)
-check_first_and_last_number(number_list_2)
+checked_list_1 = check_first_and_last_number(number_list_1)
+checked_list_2 = check_first_and_last_number(number_list_2)
 
 #Display the result
+print("Given the list", number_list_1)
+print("Result is", checked_list_1)
+print("Given the list", number_list_2)
+print("Result is", checked_list_2)
