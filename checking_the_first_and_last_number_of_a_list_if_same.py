@@ -20,5 +20,7 @@ number_list_1 = [10, 20, 30, 40, 10]
 number_list_2 = [75, 65, 35, 75, 30]
 
 #Call out the function
+check_first_and_last_number(number_list_1)
+check_first_and_last_number(number_list_2)
 
 #Display the result
