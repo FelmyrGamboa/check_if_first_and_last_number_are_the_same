@@ -16,6 +16,8 @@ def check_first_and_last_number(number_list):
         return False
     
 #Give the list
+number_list_1 = [10, 20, 30, 40, 10]
+number_list_2 = [75, 65, 35, 75, 30]
 
 #Call out the function
 
